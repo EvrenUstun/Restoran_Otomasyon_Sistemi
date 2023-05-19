@@ -48,3 +48,5 @@ Projenin çalıştırılması için bilgisyarınızda java'nın kurulu olması b
 ## Ekran Kaydı
 
 ## Ekran Görüntüsü
+
+<img src="/Screenshot/ChatGPT.png" />
