@@ -31,11 +31,11 @@ Bu tasarım desenleri, restoranın sipariş işleme sisteminin doğru bir şekil
 * IntelliJ IDEA 2021.2.3
 * Git
 
-# Önkoşullar
+## Önkoşullar
 
 Projenin çalıştırılması için bilgisyarınızda java'nın kurulu olması beklenmektedir.
 
-# Kurulum
+## Kurulum
 
 1. Repoyu klonlayın.
 
@@ -45,6 +45,12 @@ Projenin çalıştırılması için bilgisyarınızda java'nın kurulu olması b
 
 2. Klonladığınız projede Main.java dosyasını açın ve projeyi çalıştırın.
 
+## ChatGPT Kullanımı
+
+ChatGPT ye ona bir senaryo vereceğimi söyledim ve bunu istediğim programlama dilini belirterek bir kod yazacağımızı söyledim. Bu proje özelinde java programlama dilini seçtim. Daha sonra senaryomu yazdım ve bunun kodunu yazmasını istedim. Daha sonra diğer tasarım desenlerini içeren senaryoları da bu şekilde kodunu chatGPT ye yazdırdım. Son olarak bazı classların ismini aynı verdiği için bunları kendim düzelterek çalışır kod elde ettim.
+
 ## Ekran Kaydı
 
 ## Ekran Görüntüsü
+
+<img src="/Screenshot/ChatGPT.png" />
