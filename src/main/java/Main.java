@@ -5,6 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Factory Method Pattern
+        System.out.println("Factory Method Pattern ");
         System.out.print("Sipariş türünü girin (yemek/içecek): ");
         String siparisTur = scanner.nextLine();
 
@@ -20,6 +21,7 @@ public class Main {
             System.out.println("Geçersiz sipariş türü!");
         }
         System.out.println("\n-----------------------------\n");
+        System.out.println("Singleton ");
         // Singleton
         // Sipariş İşleme Yöneticisi örneği alınıyor
         SiparisIslemeYoneticisi siparisIslemeYoneticisi = SiparisIslemeYoneticisi.getInstance();
@@ -37,7 +39,7 @@ public class Main {
         siparisIslemeYoneticisi.siparisleriIsle();
 
         System.out.println("\n-----------------------------\n");
-
+        System.out.println("Decorator ");
         // Decorator
         // Temel yemek oluşturuluyor
         Food temelYemek = new TemelYemek();
@@ -51,6 +53,7 @@ public class Main {
         System.out.println(yemek2.getAciklama() + ", Fiyat: " + yemek2.getFiyat());
 
         System.out.println("\n-----------------------------\n");
+        System.out.println("Builder ");
         // Builder
         // Yemek Builder kullanarak özelleştirilmiş yemek oluşturuluyor
         Yemek yemek = new YemekBuilder("Pizza")
@@ -63,6 +66,7 @@ public class Main {
         System.out.println(yemek);
 
         System.out.println("\n-----------------------------\n");
+        System.out.println("Prototype ");
         // prototype
         // Yemekler prototipinden yeni yemekler oluşturuluyor
         CloneableYemek yemek3 = YemekFabrikasi.getYemek("Pizza");
@@ -73,6 +77,8 @@ public class Main {
         yemek4.hazirla();
 
         System.out.println("\n-----------------------------\n");
+        System.out.println("Mediator ");
+
         // Mediator
         SiparisIletisimcisi siparisIletisimcisi = new SiparisIletisimcisi();
         Mutfak mutfak = new Mutfak(siparisIletisimcisi);
@@ -86,6 +92,8 @@ public class Main {
 
 
         System.out.println("\n-----------------------------\n");
+        System.out.println("Chain of Responsibility ");
+
         // Chain of Responsibility
         SiparisZinciri siparisZinciri = new SiparisZinciri();
 
@@ -99,6 +107,8 @@ public class Main {
         siparisZinciri.siparisAl(siparis6);
 
         System.out.println("\n-----------------------------\n");
+        System.out.println("Observer ");
+
         // Observer
         MutfakDepartmani mutfakDepartmani = new MutfakDepartmani();
         GarsonDepartmani garsonDepartmani = new GarsonDepartmani();
