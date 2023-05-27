@@ -31,7 +31,7 @@ Bu tasarım desenleri, restoranın sipariş işleme sisteminin doğru bir şekil
 * IntelliJ IDEA 2021.2.3
 * Git
 
-## Önkoşullar
+## Ön koşullar
 
 Projenin çalıştırılması için bilgisyarınızda java'nın kurulu olması beklenmektedir.
 
@@ -51,7 +51,7 @@ ChatGPT ye ona bir senaryo vereceğimi söyledim ve bunu istediğim programlama 
 
 ## Ekran Kaydı
 
-https://github.com/EvrenUstun/Restoran_Otomasyon_Sistemi/assets/56193045/f89909f4-ad22-4a86-839c-948f417639df
+https://github.com/EvrenUstun/Restoran_Otomasyon_Sistemi/assets/56193045/a4d4bd0a-bc05-4350-8cce-4dc1bbfb725f
 
 ## Ekran Görüntüsü
 
