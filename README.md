@@ -51,6 +51,8 @@ ChatGPT ye ona bir senaryo vereceğimi söyledim ve bunu istediğim programlama 
 
 ## Ekran Kaydı
 
+https://github.com/EvrenUstun/Restoran_Otomasyon_Sistemi/assets/56193045/f89909f4-ad22-4a86-839c-948f417639df
+
 ## Ekran Görüntüsü
 
 <img src="/Screenshot/ChatGPT.png" />
